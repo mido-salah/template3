@@ -112,7 +112,7 @@ ul {
 
 .main-title:hover:after {
     animation: point-left 5s;
-    -webkit-animation: point-left .5s linear forwards;
+    -webkit-animation: point-left 5s;
 }
 
 
@@ -139,7 +139,7 @@ ul {
 
 .main-title:hover::before {
     animation: point-right 5s;
-    -webkit-animation: point-right .5s linear forwards;
+    -webkit-animation: point-right 5s;
 }
 
 
@@ -220,6 +220,10 @@ ul {
 .headder .container .main-headding>li:hover a::before {
     transform: translateX(0%);
     left: 0;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
 }
 
 @media(max-width:767px) {
@@ -311,6 +315,10 @@ ul {
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
     -o-transition: var(--main-transition);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .landing a i:hover {
@@ -446,12 +454,11 @@ ul {
 }
 
 .article .container .box {
-
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0 0 15px rgb(26, 26, 26, 20%);
     border-radius: 10%;
     overflow: hidden;
-    -webkit-border-radius: 4%;
+    -webkit-border-radius: 10%;
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
@@ -734,6 +741,10 @@ ul {
     background-size: 200% 100%;
     background-position: right bottom;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .features .container .Time:hover a {
@@ -1054,7 +1065,7 @@ ul {
     height: 100%;
     background-color: #d5d5d5;
     transform: skew(-20deg);
-    -webkit-transform: skew(-25deg);
+    -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -ms-transform: skew(-20deg);
     -o-transform: skew(-20deg);
@@ -1162,7 +1173,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-
 }
 
 .work .box::before {
@@ -1312,6 +1322,10 @@ ul {
     display: block;
     border-top: 1px solid black;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 
@@ -1369,6 +1383,10 @@ ul {
 
 .event .subscribe form input:first-child::placeholder {
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .event .subscribe form input:first-child:focus::placeholder {
@@ -1390,7 +1408,10 @@ ul {
     border-radius: 45px;
     transition: var(--main-transition);
     cursor: pointer;
-
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .event .subscribe form:hover input:last-child {
@@ -1439,6 +1460,10 @@ ul {
     background-color: rgb(222, 222, 222, 50%);
     transition: var(--main-transition);
     z-index: -1;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .pricing .box::before {
@@ -1534,6 +1559,10 @@ ul {
     margin: 20px auto 0;
     cursor: pointer;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .pricing .box a:hover {
@@ -1544,6 +1573,10 @@ ul {
 @media(min-width:1200px) {
     .pubular {
         transform: translateY(-12px);
+        -webkit-transform: translateY(-12px);
+        -moz-transform: translateY(-12px);
+        -ms-transform: translateY(-12px);
+        -o-transform: translateY(-12px);
     }
 }
 
@@ -1577,6 +1610,10 @@ ul {
     padding: 20px;
     border-top: 1px solid #bbb;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .vedio .container li:hover {
@@ -1587,7 +1624,10 @@ ul {
 .vedio .container li p {
     margin-bottom: 10px;
     transition: var(--main-transition);
-
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .vedio .container li:hover p {
@@ -1834,6 +1874,10 @@ ul {
     font-size: 18px;
     font-weight: bold;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .data a:hover {
@@ -1879,6 +1923,10 @@ footer .container .text a {
     margin: 20px 10px 20px 0;
     position: relative;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 footer .container .text a:nth-child(2):hover {
@@ -1903,6 +1951,10 @@ footer .container .text i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 footer .container .text p {
@@ -1941,11 +1993,19 @@ footer .container .links a {
     color: #999;
     display: block;
     transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 footer .container .links li:hover a {
     transform: translateX(15px);
     color: white;
+    -webkit-transform: translateX(15px);
+    -moz-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    -o-transform: translateX(15px);
 }
 
 footer .container .address {
