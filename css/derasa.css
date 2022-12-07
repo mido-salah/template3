@@ -1,0 +1,1374 @@
+/* 5 backgound color chose the color . blue geen red   ff 00  repeat  repeat-x : repeat-y  no-repeat font-size:
+                div {
+     background-color: lightslategrey;
+    background-color: rgba(181 29 0 / 50%);
+    background-color: #ff0000; 
+    background-image: url("../imges/Arkhip-free-modern-fonts.jpg");
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+6 background-attachment (scroll fixed)  background-position(left top;  20px 50px  50% 50%;  background-size( cover contain
+                                        background-position: left bottom;
+                                        background-position: left center;
+                                        background-position: right bottom;
+                                        background-position: right center;
+                                        background-position: right top
+              background-attachment: fixed;
+    background-attachment: scroll;
+    background-position: center;
+    background-position: 20px 50px;
+    background-position: 50% 50%;
+    background-size: cover; 
+    background-size: contain;
+    background-size: 500px 400px;
+    background-size: 100% 100
+    background-position: left top;
+    background-position: left bottom;
+    background-position: left center;
+    background-position: right bottom;
+    background-position: right center;
+    background-position: right top;%;
+7     padding
+                         padding: 10px;
+    padding: 10px 20px;
+    padding-right: 50px;
+8 margin 50px 50%    auto width
+                 margin: auto;
+    margin: 40px;
+    width: 70%;
+}
+9 border ( color width style solid right left radius )  
+        border-width: 10px;
+    border-color: red gold green blueviolet;
+    border-style: solid;
+    border: red 10px solid;
+10 outline    outline: red solid 10px;
+11 display block inline-block
+        block
+        take full width if no width
+        add line break
+        respect padding margen width hihgts
+
+        inline
+        do not add line break
+        do not respect  margen width hihgts
+        respect pading and margin {just right + lift}
+        do not add line break
+        inline-block
+        respect padding margen width hihgts
+        do not add line break
+12 display{none } visibility hidden
+                    .two {
+                visibility: hidden;
+            }
+
+            .three {
+                display: none;
+            }
+
+13 grouping 
+                        one,
+        .two,
+        .three,
+        .four {
+            padding: 10px;
+            background: wheat;
+            margin: 10px 0;
+}14 nesting     css                                                        html                                                     
+                div .sasa {
+              color: blue;
+                            }                                     <div class="one">                                               
+                                                                <h2> title </h2>
+                                                                <p class="sasa"> paragraph inside div</p>
+                                                                <p> paragraph inside div</p>
+                                                            </div>
+                                                            <p class="sasa">paragragh outside div</p>
+
+          
+15 width  min-width: 400px   max-width   max-height   width: fit-content
+                         min-width: 400px;
+    max-width: 600px;
+    max-height: 100px;
+    width: fit-content;
+16 overflow(scroll - hidden - auto ) overflow-y overflow-x
+                            /*  : hidden; */
+/* overflow: scroll; */
+/* overflow: auto; */
+/* overflow-y: hidden; 
+    overflow-x: hidden;
+17 dext-shadow
+                        text-shadow: 0px 0px 0px red;
+18 in html{style="vertical-align:} css{text-align-direction(rtl-ltr)
+                                                                                                   
+     <div> elziro web <img src="https://via.placeholder.com/60px/00ff00" alt="" style="vertical-align:top "> school.
+    </div>
+                                            direction: rtl; text-align: center;
+                                             text-align: center;
+19   text-transform(  uppercase - capitalize ) text-decoration(underline- overline -line-through)     
+            text-transform: uppercase capitalize; 
+     text-decoration: underline overline line-through;
+20 letter-spacing  text-indent  word-spacing  line-height word-break(break-all-brack word white-space: nowrap
+                    /* letter-spacing: 5px; 
+    /* text-indent: 200px; 
+    /* word-spacing: 3px; 
+    line-height: 1.6;
+    /* word-break: break-all; 
+    white-space: nowrap;
+21 text-overflow: ellipsis in html  font-family: sans-serif;
+         text-overflow: ellipsis;  title="hi iam mido i will take you in a injoyble trip     
+22 inherit;
+                div {
+    text-align: center;
+    background-color: aqua;
+    width: 200px;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+}
+
+div p {
+    border: inherit;
+}
+
+23     font-family: Arial, Helvetica, sans-serif; inherit
+            div p {
+    border: inherit;
+                .san-ser {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+}
+vw
+24 unites for css   default font size in page is 16 px px  em  rem  percentage  
+        px 
+
+            em = 2  px الخاص بالاساس و الذي يتم الترويس منه ان كان (div , body)
+            rem  2  px الخاص بالاساس و الذي يتم الترويس منه ان كان (html)
+            vw الخاصة بتحديد حجم الفونت مقارنا ب حجم  الشاشة 
+                .san-ser {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        .withaut-ser {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+
+        }
+
+        /*
+        unites for css
+        default font size in page is 16 px
+        px
+        em
+        rem
+        percentage
+        vw
+
+
+        .withaut-ser span {
+            font-size: 5vw;
+        }
+25 font-weight: bold ;     font-weight: normal;   font-variant: small-caps;   font-style: italic;  font-style: normal;
+                        .san-ser {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+
+            .withaut-ser {
+                font-family: Arial, Helvetica, sans-serif;
+
+                font-style: italic;
+                font-style: normal;
+26      background: transparent   border: none  cursor(pointer-  grab  move)
+                button {
+            background: transparent;
+            border: none;
+            color: red;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        p {
+            cursor: grab;
+            cursor: move;
+            width: fit-content;
+}                
+27    clear: both;  float
+
+
+            .parant {
+            background-color: red;
+            padding: 10px;
+            1 /* overflow: hidden; */
+/*  2 height: 50px; 
+        }
+
+        .parant div {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: #eee;
+
+            width: 25%;
+            float: left;
+
+        }
+
+        3  .claer {
+            clear: both;
+        }
+29   calc((100% - 60px)/5);
+            body {
+                margin: 0;
+
+            }
+
+
+
+            .parant div {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                background-color: #eee;
+                width: calc((100% - 60px)/5);
+                float: left;
+                margin-left: 10px;
+
+
+            }
+
+
+
+
+            /*
+            content widrh 100% 
+            6 apacesing 10px 60px
+            availble space 100%
+            5 elements 100% - 60px /5   
+                    
+30  opacity
+        .one {
+            opacity: .5;   
+30 position (abslute  تستعمل عند تغير النكان بالنسبة للشاشة  -relative div {div} مهمة عند وجود و تستعمل لتغير المكان بالنسبة لمكان العنصر الاصلي  - fixed تحريك الشاشة مع العنصر - stiky تريك الشاشة مع ثبات العنصر في مكان ظاهر)                    
+                    .parant {
+                width: 400px;
+                position: relative;
+                height: 300px;
+                background-color: #eee;
+                left: 300px;
+                parant .two {
+                opacity: .5;
+                position: absolute;
+
+                left: 1px;
+            }
+            .one {
+                background-color: #eee;
+            
+                position: fixed;
+                bottom: 1px;
+                right: 0px;
+            div {
+
+                width: 100px;
+                font-weight: bold;
+                font-size: 1rem;
+                padding: 20px;
+                background-color: gray;
+                border-radius: 10px;
+                position: sticky;
+                top: 20px;
+31 z-index 
+        .one {
+            background-color: #eee;
+            top: 40px;
+            left: 40px;
+            z-index: 3;
+
+
+
+        }
+
+        .two {
+            top: 25px;
+            background-color: aqua;
+            left: 20px;
+            z-index: 2;
+        }                     
+32 ul styling  list-style: armenian inside; list-style: none; list style tybe ,imge 
+        }       ul {
+            /* list-style: armenian inside; 
+        list-style: none;
+        padding: 0;
+        }
+
+        li {
+            background-color: #eee;
+            margin-bottom: 10px;
+        }
+33 tanble style  border-spacing
+        table {
+            width: 100%;
+            border-spacing: 0px;
+            /* border-spacing: 4px; 
+        }
+
+        table thead td {
+            text-align: left;
+
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(86, 33, 139);
+            border-color: 14px rgb(118, 58, 177);
+
+            color: white;
+
+        }
+
+
+        table td {
+            padding: 10px;
+            background-color: #eee;
+            border: solid 1px black;
+
+ 
+ 34 psiodo classes( hover { attach checkbox to lable} empty Focus )
+            }
+            a {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: chartreuse;
+        }
+
+        .ch:checked+label {
+        /* color: blue; 
+        display: none;
+        
+        
+                div:empty {
+        border: 5px solid red;
+        height: 20px;
+
+            /* a:visited {
+        color: gray;
+
+        .tex:focus {
+        border: 2px solid gold;
+        outline: none;
+    }
+35 pseudo elements (firest letter - firest line-SELLECTion)
+                
+                .one::first-letter {
+            font-size: 20px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+
+        }      .two::first-line {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+            .three::selection {
+            background-color: red;
+            color: #        ;
+}
+36 after before ازاي تعمل سهم
+
+        .one::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -20px;
+    border: 25px solid;
+    border-color: transparent aquamarine transparent transparent;
+}
+.one::before {
+    content: "";
+    position: absolute;
+    background-color: aquamarine;
+    width: 5px;
+    height: 100%;
+    top: 0px;
+    right: -5px;
+}
+37 content (تحويل atrbipt to element ) counter-increment:
+
+            .parent {
+    counter-increment: members;
+            }
+                .one::before {
+    content: counter(members);
+    position: absolute;
+    background-color: blue;
+    color: blanchedalmond;
+    font-weight: bold;
+    top: 0%;
+    right: 0%;
+
+                        .one::after {
+    content: attr(data-text);
+    display: none;
+}
+        .one:hover::after {
+    display: block;
+38 vendor prefix    
+39 border radius 
+                .one {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: blue;
+    border-top-left-radius: 45px 50px;
+    border-bottom-right-radius: 10px;
+40 box shadow
+                    box-shadow: inset -4px -5px 20px 0px cyan, 15px 10px 13px 5px red, 19px 20px 20px 10px rebeccapurple;
+
+
+41 box sizing
+
+
+                    * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+                    .one,
+.two {
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 11px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: red solid 5px;
+42 transeition(duraction- delay- property(all element)-timing-function{linear ease-in ease-out ease-in-out})
+
+    transition-duration: 300ms;
+
+    transition-delay: 100ms;
+
+    transition-property: text-shadow, box-shadow;
+
+    transition-timing-function: linear ease-in ease-out ease-in-out
+43 !important
+44 collaps 
+    {1} only vertical mergan collaps
+    {2} boigger collaps win 
+    {3} no elemint in margen between the 2 elements to use the collaps
+    {nesting dos not prevent the collasping
+45
+46 displayflex  flex-direction({defolt row} - row-reverse -column - columnrevarse) flex-wrap({noreverse defolot} - nowrap) flex-flow(noreverse  - nowrap - row - row-reverse -column - columnrevarse 
+
+
+        .flex {
+    width: 600px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    /* row  - row-reverse -column-column-reverse
+    flex-wrap: wrap-reverse;
+    /* wrop - nowrap - wropreverese 
+    flex-flow: wrap-reverse row-reverse;
+47 JUSTFiY-content({flex-start}- flex-end - center - space-between - space-around space-evenly
+
+justify-content: space-evenly;
+    /* {flex-start defolte} -FLEX-end - center -space-between -space-around -space-evenly 
+
+48 alignt-items(stretch - flex-start - flex-end - space between - space-around - center)    
+49 align-content: (stretch(stretch - flex-start - flex-end - space between - space-around - center)
+50  flex-box hild(flex-grow - flex-shrink - order{1 2 3})
+            .flex .one1 {
+    height: 25px;
+    flex-shrink: 5;
+    order: 6;
+    .flex .two {
+
+    flex-grow: 2;
+}51 flex-bassec - flex display inline-flex
+
+    .flex .two {
+    flex: 1 2 200px;
+    /* auto  
+52 align slelf 
+
+        .flex .one1 {
+    height: 25px;
+    flex-shrink: 5;
+    order: 6;
+    align-self: flex-start;
+    /* start end center     
+}
+
+.flex .two {
+    align-self: center;
+    /* auto  
+
+}
+54 filters( greyscale blur invert )
+
+         filter: invert(100%);
+    /* grayscale blur  
+    opacity: .1;
+55 gradient background-imge-linear-gradient( (diraction)or numbers- color stop1 - color stop2......)     
+56 caret-color  pointer-events in html contenteditable(true)    
+
+        div {
+    caret-color: yellow;
+
+}
+
+a {
+    /* pointer-events: none; 
+    cursor: copy;
+57 parent grid  display: grid; inline-grid grid-templet-columns{numbers of columns }{px ,% .auto , repeat(5, auto) ,fr} mix
+
+        .parent {
+    position: relative;
+    left: 25;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    width: 800px;
+    height: 500px;
+    background-color: #eee;
+}
+
+div {
+    text-align: center;
+    display: grid;
+    background-color: red;
+58 grid-templete-rows(numbers of rows, % px fr Repeat) row-gap column-gap gap
+
+.parent {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    top: 10%;
+    margin-top: 20px;
+    left: 50%;
+    margin-left: -350px;
+    background-color: #eee;
+
+    text-transform: capitalize;
+    font-size: 40px;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px 10px;
+59 justfiy-content(space {around,between,evenly} start end center) align-content({around,between,evenly} start end center)  
+
+
+     justify-content: center;
+    align-content: space-between;
+}
+60 gtid-template-areas  grid-area
+
+        grid-template-areas: " logo logo logo nav nav nav nav nav nav nav"
+        "cont cont cont cont cont cont cont side side side"
+        "fot fot fot fot fot fot fot fot fot fot";
+}
+         h2 {
+    grid-area: logo;
+    background-color: aqua;
+}
+
+        ul {
+            word-spacing: 50px;
+        }
+
+        ul li {
+            display: inline-block;
+
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: blue;
+        }
+
+        section {
+            grid-area: cont;
+            background-color: blue;
+        }
+
+        aside {
+            grid-area: side;
+            background-color: yellow;
+        }
+
+        footer {
+
+            grid-area: fot;
+            background-color: rgb(54, 47, 47);
+}61 grid-row , grid-column{ number/number , number/span number)
+
+            grid-column: 2/ 6;
+    grid-row: 1/span 2;
+}62 grid-row , grid-column start  end area 
+63 auto-fill minmax  :nth-of-type()
+
+        .parent {
+    position: relative;
+
+    height: 400px;
+    padding: 40px;
+    top: 10%;
+    margin-top: 20px;
+
+    .grid :nth-of-type(5)::after {
+    content: "element 5";
+    line-height: 25;
+
+
+
+    background-color: #eee;
+
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    text-transform: capitalize;
+    font-size: 40px;
+    display: grid;
+    font-weight: bold;
+    /* justify-content: space-between;
+    align-content: space-between; 
+65 transform scalex scaley  scaley
+
+        .sa {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    margin: 30px auto;
+    box-sizing: border-box;
+    line-height: 10;
+    text-align: center;
+    font-size: 40px;
+
+    transition: 1s;
+}
+
+.sa:hover {
+    transform: scale(-1);
+}
+66 transetion rotate (deg turn )
+
+                .imge {
+            width: 612px;
+            height: 408px;
+            overflow: hidden;
+            margin: 30px auto;
+            display: inline-block;
+        }
+
+        .imge img {
+            transition: 1s;
+        }
+
+        .imge:hover img {
+            transform: scale(1.3) rotate(5deg);
+            opacity: .6;
+        }
+
+        .imge1 img {
+            transition: 1s;
+        }
+
+        .imge1 {
+            overflow: hidden;
+            display: inline-block;
+            margin: 10px;
+            width: 950px;
+            height: 713px;
+
+        }
+
+        .imge1:hover img {
+            transform: scale(1.2) rotate(-7deg);
+            opacity: .4;
+        }
+
+        .imge2 {
+            overflow: hidden;
+            display: inline-block;
+            margin: 10px;
+            width: 522px;
+            height: 712px;
+
+        }
+
+        img {
+            transition: 1s;
+        }
+
+        .imge2:hover img {
+            transform: scaleX(1.4) rotate(-9deg);
+67        transfotm ttranslate
+
+            .sa {
+    width: 600px;
+    height: 600px;
+    background-color: rebeccapurple;
+    position: relative;
+
+    left: 50%;
+    transform: translate(-50%);
+    transition: 1s;
+
+}
+
+.sa:hover {
+    transform: translate(20%, -10%);
+}
+68 transform skew
+
+    h2 {
+    margin: 20px auto;
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+    color: #eee;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: skewX(15deg);
+    border-right: black solid 5px;
+
+69 transform:matrex(scalex , skewx ,skewy ,translatex ,translatey)
+scale 0 = the element will disappire
+
+        h2 {
+    width: fit-content;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    transform: matrix(1, 0, -.2, 1, 10, 0);
+70 transform-origin( 50% 50% center left right)
+                    left top
+
+ h2 {
+    display: flex;
+    width: fit-content;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    background-color: aqua;
+    transform-origin: 50% 100%;
+    transform: rotate(50deg);
+}
+71 /* rotate3d( x,y,z,deg                        
+
+h2 {
+    display: flex;
+    width: fit-content;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    background-color: aqua;
+
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    transition: .5s;
+72 persprctive(px) perspective-origin(% %) transform:tanslate3d(x,y,z)
+}
+
+        .parent {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    perspective-origin: 100% 100%;
+    perspective: 200px;
+}
+
+.parent h2 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    padding: 20px;
+    background-color: aqua;
+    transform: translate3d(0px, 0px, 100px);
+
+    transform-origin: 0% 50%;
+    transition: .5s;
+73 backface-visipility :hidden presprective presprective-otigen Transform-syle:preserv-3d
+}                               in parent 
+
+        
+.contener {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform-origin: top left;
+}
+
+.box:hover {
+    transform: rotatey(180deg);
+}
+
+
+.box .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 300px;
+
+}
+
+
+.box .back {
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    font-size: 40px;
+
+}
+74 @keyframs  animation-name animation-duration
+
+            .box {
+        width: 300px;
+        height: 300px;
+        margin: 30px auto;
+        background-color: yellow;
+        animation-duration: 10s;
+        animation-name: changecolor;
+    }
+
+    @keyframes changecolor {
+        0% {
+            background-color: yellow;
+        }
+
+        50% {
+            background-color: red;
+        }
+
+        75% {
+            background-color: green
+        }
+
+        100% {
+            background-color: yellow;
+        }
+}75 animation-itration-cunt(infinte)  animation-timing-function(ease liner ease in)
+76 animation-diraction(revarse, alternate, alternate revarse) animatin-dilay animation-fill-mode(forward backard both) animation-play-state(paussd-runing
+        animaton 
+
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 30px auto;
+            background-color: yellow;
+            border-radius: 50%;
+            border: 10px solid aqua;
+            border-left-color: transparent;
+            /* animation-name: rotate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 60px;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            /* animation-direction: reverse; 
+            /* revarse alternate alternate-reverse 
+            /* animation-delay: -1.1s; 
+            animation: rotate 3s infinite linear reverse -2s;
+        }
+
+        .box:hover {
+            animation-play-state: paused;
+        }
+
+        .box2 {
+            width: 300px;
+            height: 300px;
+            margin: 30px auto;
+            background-color: aqua;
+            border-radius: 50%;
+            border: 10px solid yellow;
+            border-left-color: transparent;
+            animation-name: color;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 60px;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            /* animation-direction: reverse; 
+            animation-fill-mode: both;
+            /* forwards backwards both 
+        }
+
+        @keyframes color {
+            25% {
+                background-color: blue;
+            }
+
+            50% {
+                background-color: red;
+            }
+
+            75% {
+                background-color: blueviolet;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+78 selectots 
+        /*selectots
+        1 * select all elements
+        2 .class name.class nsme .g.c in HTML <div class="g c"
+        3 p.class name select only elemnts have p and the class name  
+        4 .perant .child in HTML <p class="parent">
+                <div class="">
+                    <div class="child">222</div>
+                </div>
+        5.parent > .child in HTML
+            <div class="parent">
+                <div class="child">222</div>
+            </div>
+        
+ 79 6 div + {element} select العنصر الثاني الي قبله div
+        div+p {
+            color: aqua;
+        } in HTML 
+        <div class="parent">div</div>
+            <p>ppp</p>
+            <div class="a">civ<div>
+        7 element ~ element select any element in the same line of p 
+        p~div {
+            color: aqua;
+        }
+        <div class="">
+                <div class="parent">div</div>
+            { <p>ppp</p> }
+                <div class="a">civ<div>
+                <h5>h</h5>
+        </div>
+        8  [attrebute] 
+        9 element [attrebute]
+        p[title] {
+            color: red;
+        }
+        10  [attrebute =value]
+        11 element [attrebute= value]
+        p[title=ppap] {
+            color: red;
+        }
+        12 element [attrebute ~= value] contains a word
+            [title*=s] {
+                color: red;
+            }
+            13 element [attrebute *= value] contains a string
+            14 element [attrebute ^= value] start with a string
+            [title^=s] {
+                color: red;
+            }
+80 {child   الابن} {type النوع}
+            :firest-child
+            :last-child 
+            :firest-of-type
+            :last-of-type
+            :only-of-type
+            :onlychild
+81 
+                    /*
+        1 :not()
+        :nth-child( number {even زوجي}  {odd فردي})
+        :nth-last-child()
+        :nth-last-of-type(1)
+        :nth-of-type(1)
+        
+82  
+        1 checked
+        input[type="checkbox"]:checked+div {
+            color: aqua;
+        }
+        2 :empty
+        3:disabled
+        4:required
+        5:focus
+        6 ::selection
+        ::placeholder
+        
+83 media      
+
+
+        @media (min-width:1000px) and (max-width:1400px) {
+            div:not(.parent) {
+                background: rebeccapurple;
+
+            }
+
+84
+            /* Mobile 
+
+        @media (max-width: 767px) {
+        }
+
+        /* Small Screens 
+
+        @media (min-width: 768px) and (max-width: 991px) {
+        }
+
+        /* Medium Screens 
+
+        @media (min-width: 992px) {
+        }
+
+        /* Large Screens 
+
+        @media (min-width: 1200px) {
+        }
+
+        /* Custom 
+
+        @media (max-width: 1199px) {    }
+85  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                    .parent {
+            flex-wrap: wrap;
+            margin: 5px auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        div:not(.parent) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-bottom: 5px;
+            background-color: aqua;
+            width: 100%;
+        }
+
+
+        /* Mobile 
+
+        @media (max-width: 767px) {}
+
+        /* Small Screens 
+
+        @media (min-width: 768px) {
+            .parent div {
+                width: calc(50% - 10px);
+            }
+        }
+
+        /* Medium Screens 
+
+        @media (min-width: 992px) {
+            .parent div {
+                width: calc(25% - 10px);
+            }
+        }
+
+        /* Large Screens 
+
+        @media (min-width: 1200px) {}
+
+        /* Custom 
+
+        @media (max-width: 1199px) {}
+86 framwork
+
+        in HTML     <div class="new center-position circle-100 center-flex">1</div>
+
+        .new {
+            background-color: aqua;
+
+        }
+
+        .center-position {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .circle-100 {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .center-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+87 /*
+        1 inition use to reach to the defolt value
+        2 unsit it work as inherid if stuation is avable
+        and work as initial if the situation is avable
+        3 all
+        4 revert restart useragent property                
+        
+
+        .parent>:first-child h2 {
+            color: initial;
+            margin: revert;
+        button {
+            all: unset;
+
+        }
+
+cmder 
+1 cd ls mv move dir md
+4
+    1mv folder name ..\
+    2 mv folder name \ to move to c
+    3 cp -r folder name to copy folders and athers in side 
+    4 rm -r to remove  to delaet folders and athers in side
+    5 rm -d to remove empty files 
+    6 rm * -r to remove all foldars
+5
+        1 echo txt 
+        2 echo text > text add string in file or new file
+        3 echo text >> text add string in file or new file without remove text in side
+        4 cat use to show the content
+        5 more use to show the content
+        6 cat * use to show all content
+        7 cat name txt > name txt use to criat new folder show all content in
+        8 cat * > name txt use to criat new folder show all content in
+        10 type * > name txt use to criat new folder show all content in
+        title
+6        
+        1 grep to search in file 
+        2 grap name -r to seatrch in all files
+        2 grap name -r -l to seatrch in all files and put it in a list 
+7 
+        1 touch use to criate fIles
+        2 md  use to criate folders
+        3 file use to show you the kind of the file
+        4 catr +c to stop
+        5 tree use to show you all folders in the folder 
+        6 tasklist
+8        
+        1 elxplorer name use to open files
+        2 alias 
+        3 ipconfig
+        4 systeminfo
+        5 | clip use to copy
+        how to open a file by terminal
+3 github
+        1 git clone link
+4
+        1 git status
+        2 git add
+        3 git reset head name file use to remove file from 
+        4 git commit -m " commint"
+5
+        1 git branch
+        2 git push remotename branchname
+        3 git remote         
+6
+        1 git config --global user.name
+        2 git config --global user.email 
+        3 git init " name " to use to create new local rebo
+        4 dir -a use to show you the hidden folders
+        5 git log use to show you the changes in rebo  
+        6 git checkout code use to retarne 
+        7 git branch name use to create new btanch
+        8 git checkout branch name  use to go to branch  
+        9 git merge name branch use to add the changes from branch1 to branch2
+        10 git  remote -v use to chick the conniction between loceal rebo  and online rebo
+        11 git remote add origin use to add origin
+        12 ssh-keygen -t ed25519 -C "midomahih@gmail.com"
+        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
+        mahih
+        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
+
+
+        key
+        SHA256:LTrKMbKP0PMMB7uyGxIunMK8BvxYEeLl+y7oeWQfiyU
+11  
+    1λ git config --global alias.cm "commit -m" use to add alias 
+13
+    1 git stash use to put file in a hidden list           
+    2 git stash pop use to show files from hidden list           
+    3 git stash list
+14
+    1 git stash save "name" ust to cteate a stash with a name
+    2 git stash apply ust to copy from stash list nad past it
+    3 git stash pop stash@{numner} use to show the file stashed with his code
+    4 git stash drop use to remove file stashed 
+    5 git stash show 
+    6 git stash clear use to remove file stashed
+15
+    1 git resore --staged * use to reset file out stage area
+    2 code name file use to open any file in a visual studio code    
+    3 git clean -n use to shoe ypu lis that will removed
+    4 git clean -f use to remove files \
+16
+    1 git reset --hard """"""""  use to remove the step
+    2 git push origin master --force use to aooly the changes in local to online rebo
+17 
+    1 how to ignore  files with a particular extension
+        1 create a file with name .gitignore
+        2 add content *.extension (*.txt)
+    2 how to excet a file 
+        1 add !name file
+            
+
+
+
+how to do prog-holder
+
+.our-skills .prog-holder {
+    margin-bottom: 30px;
+}
+
+
+.our-skills .prog {
+    position: relative;
+    height: 30px;
+    background-color: var(--main-gray-color);
+}
+
+.our-skills .prog span {
+    position: absolute;
+    height: 100%;
+    background-color: var(--main-color);
+
+
+
+    z-index widh potion apslote
+
+    to work you neet to 
+        1 backgroun-color
+        2 z-index 
+        3 positon relative and apslote
+
+
+
+z-index in to pearent with achilds 
+        you need 
+        to pearent{ postion relative - z-index 1 }
+        to child {postion apslote - with z-index -1}
+
+
+
+moving fill the a ahfter -before
+        in pearent postino relative
+        in after 
+            width
+            height
+            positon apsolute
+            backround 
+            top 
+            left 
+            transiton
+
+
+
+
+fill without after - before
+        .features .container .Time a {
+        border-color: #03a9f4;
+        color: #03a9f4;
+        background: linear-gradient(to right, #03a9f4 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: var(--main-transition);
+    }
+
+    .features .container .Time:hover a {
+        background-position: left bottom;
+        color: white;
+
+    }
+
+
+media flex the 2 child 
+    pearent display flex 
+    child 1  flex 1
+    child 1  main-width
+    media pearent flex dearation culomn    
+
+media flex the 2 child 
+    pearent display flex
+    flex wrap wrap
+        child 2  flex 1  
+      media child min-width 100%    
